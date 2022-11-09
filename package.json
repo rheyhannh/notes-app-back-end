@@ -1,0 +1,21 @@
+{
+  "name": "restful-api-noeslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "fs": "^0.0.1-security",
+    "nanoid": "^3.3.4",
+    "path": "^0.12.7"
+  }
+}
